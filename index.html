@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva de Eva</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;552&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-info">
+            <a href="#" class="header-info-add">Hệ thống <span>36</span> Store - Mua hàng Online (08h30-17h30 từ
+                T2-T7)
+                <span>1800 1732</span>- CSKH (08h30-17h30 từ T2-T7) <span>1800 1731</span></a>
+            <a href="#" class="header-info-csbh">Chính sách bán hàng</a>
+        </div>
+        <div class="header-nav">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="https://file.hstatic.net/1000358207/file/logo_eva.svg" class="header-logo-img">
+                </a>
+            </div>
+
+            <div class="header-nav-main">
+                <ul class="header-nav-content">
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Hàng mới về">HÀNG MỚI VỀ</a>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Hàng bán chạy">HÀNG BÁN CHẠY</a>
+                    </li>
+                    <li class="header-nav-content-item hasItemMenu">
+                        <a href="" class="header-nav-content-item-link" title="Sản phẩm">SẢN PHẨM</a>
+                        <div class="header-sub-nav">
+                            <div class="sub-nav-list">
+                                <ul>
+                                    <li class="sub-nav-item">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_1.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đầm</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_2.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Áo</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_3.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Áo sơ mi</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_4.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Áo kiểu</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_5.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Jumpsuit</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_6.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Chân váy</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_7.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Quần</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_8.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Tất cả sản phẩm</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header-nav-content-item hasItemMenu">
+                        <a href="" class="header-nav-content-item-link" title="Chọn theo dịp">CHỌN THEO DỊP</a>
+                        <div class="header-sub-nav">
+                            <div class="sub-nav-list">
+                                <ul>
+                                    <li class="sub-nav-item">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_1.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ công sở</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_2.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ dạo phố</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_3.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ du lịch</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_4.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ dự tiệc</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Ưu đãi">ƯU ĐÃI</a>
+                    </li>
+                    <li class="header-nav-content-item hasItemMenu">
+                        <a href="" class="header-nav-content-item-link" title="Bộ sưu tập">BỘ SƯU TẬP</a>
+                        <div class="header-sub-nav">
+                            <div class="sub-nav-list">
+                                <ul>
+                                    <li class="sub-nav-item">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_1.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">BACK TO RUSTICITY</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_2.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">BRILLIANT</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_3.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">THE SYMPHONY OF ELITE</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_4.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">HAVE A CUP OF TRAVEL</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Phụ kiện">PHỤ KIỆN</a>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link " style="color: #ff0000;" title="LADY ME">LADY
+                            ME</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="header-nav-right">
+                <form action="search" class="header-form">
+                    <input type="text" class="header-search" placeholder="Tìm sản phẩm...">
+                    <input type="submit" class="header-search-btn" value>
+                </form>
+                <div class="header-user">
+                    <a href="#" title="Tài khoản">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/accountIcon.png?v=5127"
+                            title="Tài khoản" class="header-user-img">
+                    </a>
+                </div>
+                <div class="header-cart">
+                    <a href="#" title="Giỏ hàng">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/bagIcon2.png?v=5127"
+                            title="Giỏ hàng" class="header-cart-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- main -->
+
+<main class="main-content">
+    <div id="collection" class="collection-page">
+        <div class="padding-rl-40">
+            <div class="main-content">
+                <div class="breadcrumb-shop">
+                    <div class="" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <ol class="breadcrumb breadcrumb-arrows">
+                        <li><a itemprop="url" href="/" target="_self">Trang chủ</a></li>
+                        <li><a itemprop="url" href="/collections/san-pham" target="_self">Danh mục sản phẩm</a></li>
+                        <li class="active"><span><a itemprop="url" href="" target="_self">Túi xách</a></span></li>
+                        <span><a itemprop="url" href="" target="_self">Túi xách</a></span>
+                        
+                        </ol>
+                    </div>
+                    <div class=" banner-collection-header">
+                        <!--img src="//theme.hstatic.net/200000000133/1000569834/14/collection_banner.jpg?v=5287" alt="Túi xách"/-->
+                    </div>
+                    <div id="collection-body" class="wrap-collection-body clearfix">
+                        <div class="wrap-collection-title">
+                            <div class="heading-collection">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="titlePageAll">
+                <span>Túi xách</span>
+                <span class="visible-xs arrowToggle">
+                    <i class="fa fa-sort-down"></i>
+                </span>
+            </h1><ul class="menuCollection" phu-kien="" -="">
+            <li><a class="filter--active" href="/collections/tui-xach">Túi xách </a></li>
+            <li><a href="/collections/giay">Giày </a></li>
+            <li><a href="/collections/phu-kien-khac">Cài áo </a></li>
+        </ul></div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="filter-custom">
+            <div class="append-search"></div>
+            <span>Bộ lọc:</span>
+            <div class="group-filter" aria-expanded="true">
+                <div class="layered_subtitle dropdown-filter">
+                    <span>Size</span>
+                    <span class="icon-control">
+                        <i class="fa fa-sort-down"></i>
+                    </span>
+                </div>
+                <div class="layered-content filter-size s-filter">
+                    <ul class="check-box-list clearfix">
+                        <li>
+                            <input type="checkbox" id="data-size-p1" value="S" name="size-filter" data-size="(variant:product**S)">
+                            <label for="data-size-p1">
+                                <span class="button"></span>
+                                S
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="data-size-p2" value="M" name="size-filter" data-size="(variant:product**M)">
+                            <label for="data-size-p2">
+                                <span class="button"></span>
+                                M
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="data-size-p3" value="L" name="size-filter" data-size="(variant:product**L)">
+                            <label for="data-size-p3">
+                                <span class="button"></span>
+                                L
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="data-size-p4" value="XL" name="size-filter" data-size="(variant:product**XL)">
+                            <label for="data-size-p4">
+                                <span class="button"></span>
+                                XL
+                            </label>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                            <!-- ./filter price -->
+                            
+                            <div class="group-filter" aria-expanded="true">
+                                <div class="layered_subtitle dropdown-filter">
+                                    <span>Giá sản phẩm</span>
+                                    <span class="icon-control"><i class="fa fa-sort-down"></i></span>
+                                </div>
+                                <div class="layered-content bl-filter filter-price">
+                                    <ul class="check-box-list clearfix">
+                                        <li>
+                                            <input type="checkbox" id="p1" data-text="Dưới 500,000đ" name="price-filter" data-price="(price:product<=500000)">
+                                            <label for="p1"><span class="button"></span>
+                                                <span>Dưới</span> 500,000đ
+                                            </label>   
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="p2" data-text="500,000đ - 1,000,000đ" name="price-filter" data-price="((price:product>500000)&amp;&amp;(price:product<=1000000))">
+                                            <label for="p2"><span class="button"></span>
+                                                500,000đ - 1,000,000đ
+                                            </label>   
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="p3" data-text="1,000,000đ - 1,500,000đ" name="price-filter" data-price="((price:product>1000000)&amp;&amp;(price:product<=1500000))">
+                                            <label for="p3"><span class="button"></span>
+                                                1,000,000đ - 1,500,000đ
+                                            </label>   
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="p4" data-text="1,500,000đ - 2,000,000đ" name="price-filter" data-price="((price:product>1500000)&amp;&amp;(price:product<=2000000))">
+                                            <label for="p4"><span class="button"></span>
+                                                1,500,000đ - 2,000,000đ
+                                            </label>   
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="p5" data-text="Trên 2,000,000đ" name="price-filter" data-price="(price:product>=2000000)">
+                                            <label for="p5"><span class="button"></span>
+                                                <span>Trên</span> 2,000,000đ
+                                            </label>   
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                                        
+            <div class="group-filter" aria-expanded="true">
+                <div class="layered_subtitle dropdown-filter">
+                    <span>Màu sắc</span>
+                    <span class="icon-control">
+                        <i class="fa fa-sort-down"></i>
+                    </span>
+                </div>
+                <div class="layered-content filter-color s-filter">
+                    <ul class="check-box-list">
+                        <li>
+                            <input type="checkbox" id="color1" value="Hồng" name="color-filter" data-color="(variant:product**Hồng)">
+                            <label style="background-color: #ef5777" for="color1">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color2" value="Vàng" name="color-filter" data-color="(variant:product**Vàng)">
+                            <label style="background-color: #ffd32a" for="color2">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color3" value="Xám" name="color-filter" data-color="(variant:product**Xám)">
+                            <label style="background-color: #d2dae2" for="color3">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color4" value="Xanh" name="color-filter" data-color="(variant:product**Xanh)">
+                            <label style="background-color: #3c40c6" for="color4">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color5" value="Xanh lá" name="color-filter" data-color="(variant:product**Xanh lá)">
+                            <label style="background-color: #0be881" for="color5">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color6" value="Sen" name="color-filter" data-color="(variant:product**Sen)">
+                            <label style="background-color: #f53b57" for="color6">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color7" value="Xanh biển" name="color-filter" data-color="(variant:product**Xanh biển)">
+                            <label style="background-color: #0fbcf9" for="color7">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color8" value="Đen" name="color-filter" data-color="(variant:product**Đen)">
+                            <label style="background-color: #000000" for="color8">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color9" value="Trắng" name="color-filter" data-color="(variant:product**Trắng)">
+                            <label style="background-color: #ffffff" for="color9">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="color10" value="Đỏ" name="color-filter" data-color="(variant:product**Đỏ)">
+                            <label style="background-color: #ff3f34" for="color10">
+                                <span class="button"></span>
+                            </label>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="group-filter" aria-expanded="true">
+                <div class="layered_subtitle dropdown-filter">
+                    <span>Theo dịp</span>
+                    <span class="icon-control">
+                        <i class="fa fa-sort-down"></i>
+                    </span>
+                </div>
+                <div class="layered-content filter-event s-filter">
+                    <ul class="check-box-list clearfix">
+                        <li>
+                            <input type="checkbox" id="data-event-p1" value="Công sở" name="event-filter" data-event="(variant:product**Công sở)">
+                            <label for="data-event-p1">
+                                <span class="button"></span>
+                                Công sở
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="data-event-p2" value="Dạo phố" name="event-filter" data-event="(variant:product**Dạo phố)">
+                            <label for="data-event-p2">
+                                <span class="button"></span>
+                                Dạo phố
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="data-event-p3" value="Dự tiệc" name="event-filter" data-event="(variant:product**Dự tiệc)">
+                            <label for="data-event-p3">
+                                <span class="button"></span>
+                                Dự tiệc
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="data-event-p4" value="Đặc biệt" name="event-filter" data-event="(variant:product**Đặc biệt)">
+                            <label for="data-event-p4">
+                                <span class="button"></span>
+                                Đặc biệt
+                            </label>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+        </div>
+        </div>
+        <div class="clear-fix filter-here">
+            <div class="alert-no-filter"></div>
+                <div class="bigProductNoFilter content-product-list product-list filter clearfix">
+                    <div class="row">					
+                        <div class="width50 col-md-3 col-sm-6 col-xs-6 pro-loop animated zoomIn 1">
+        
+        
+        
+        
+                            <div class="product-block">
+                                <div class="product-img">	
+                                    
+                                    <div class="sold-out"><span>Chỉ còn tại cửa hàng</span></div>
+                            
+                                    <a href="/products/tui-xach-tay-21stdo002d" title="Túi xách tay,  21STDO002D" class="image-resize">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/21stdo002d_a5170da4f8074ca3ab98fe7f6dc81efe_grande.jpg">
+                                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/21stdo002d_a5170da4f8074ca3ab98fe7f6dc81efe_master.jpg">
+                                        <img class="img-loop" alt=" Túi xách tay,  21STDO002D " src="//product.hstatic.net/200000000133/product/21stdo002d_a5170da4f8074ca3ab98fe7f6dc81efe_master.jpg">
+                                    </picture>
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09920_ef4b113e53d94ff89de93d8651cee8a0_grande.jpg">
+                                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09920_ef4b113e53d94ff89de93d8651cee8a0_master.jpg">
+                                        <img class="img-loop img-hover" alt=" Túi xách tay,  21STDO002D " src="//product.hstatic.net/200000000133/product/dsc09920_ef4b113e53d94ff89de93d8651cee8a0_master.jpg">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="product-detail clearfix">
+                                <div class="box-pro-detail">
+                                    <h3 class="pro-name">
+                                        <a href="/products/tui-xach-tay-21stdo002d" title="Túi xách tay,  21STDO002D">
+                                            Túi xách tay,  21STDO002D
+                                        </a>
+                                    </h3>
+                                    <div class="box-pro-prices">	
+                                        <p class="pro-price highlight">
+                                            <span>
+                                                519,350đ
+                                            </span>
+                                            <span class="pro-price-del">
+                                                <del class="compare-price">
+                                                    799,000đ
+                                                </del>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>								</div>
+                                        <div class="width16 col-md-3 col-sm-6 col-xs-6 pro-loop animated zoomIn 2">
+        
+        
+        
+        
+        <div class="product-block">
+            <div class="product-img">	
+                <div class="label-sale">-30%</div>
+        
+                <a href="/products/tui-xach-tay-21stdb002d" title="Túi xách tay,  21STDB002D" class="image-resize">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09760_8f69e7d514934798a3eccc877ed35634_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09760_8f69e7d514934798a3eccc877ed35634_master.jpg">
+                        <img class="img-loop" alt=" Túi xách tay,  21STDB002D " src="//product.hstatic.net/200000000133/product/dsc09760_8f69e7d514934798a3eccc877ed35634_master.jpg">
+                    </picture>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09764_81c766deccd54ddd8075d5b7b65f5b2f_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09764_81c766deccd54ddd8075d5b7b65f5b2f_master.jpg">
+                        <img class="img-loop img-hover" alt=" Túi xách tay,  21STDB002D " src="//product.hstatic.net/200000000133/product/dsc09764_81c766deccd54ddd8075d5b7b65f5b2f_master.jpg">
+                    </picture>
+                </a>
+            </div>
+            <div class="product-detail clearfix">
+                <div class="box-pro-detail">
+                    <h3 class="pro-name">
+                        <a href="/products/tui-xach-tay-21stdb002d" title="Túi xách tay,  21STDB002D">
+                            Túi xách tay,  21STDB002D
+                        </a>
+                    </h3>
+                    <div class="box-pro-prices">	
+                        <p class="pro-price highlight">
+                            <span>
+                                1,539,300đ
+                            </span>
+                            <span class="pro-price-del">
+                                <del class="compare-price">
+                                    2,199,000đ
+                                </del>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>								</div>
+                                        <div class="width16 col-md-3 col-sm-6 col-xs-6 pro-loop animated zoomIn 3">
+        
+        
+        
+        
+        <div class="product-block">
+            <div class="product-img">	
+                <div class="label-sale">-30%</div>
+        
+                <a href="/products/tui-xach-tay-21stdb001d" title="Túi xách tay,  21STDB001D" class="image-resize">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09813_0124e3d7ef8341c9956d14789bc36bf2_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09813_0124e3d7ef8341c9956d14789bc36bf2_master.jpg">
+                        <img class="img-loop" alt=" Túi xách tay,  21STDB001D " src="//product.hstatic.net/200000000133/product/dsc09813_0124e3d7ef8341c9956d14789bc36bf2_master.jpg">
+                    </picture>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09824_a62cd0eb166145e79e799ceb94a57cbf_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09824_a62cd0eb166145e79e799ceb94a57cbf_master.jpg">
+                        <img class="img-loop img-hover" alt=" Túi xách tay,  21STDB001D " src="//product.hstatic.net/200000000133/product/dsc09824_a62cd0eb166145e79e799ceb94a57cbf_master.jpg">
+                    </picture>
+                </a>
+            </div>
+            <div class="product-detail clearfix">
+                <div class="box-pro-detail">
+                    <h3 class="pro-name">
+                        <a href="/products/tui-xach-tay-21stdb001d" title="Túi xách tay,  21STDB001D">
+                            Túi xách tay,  21STDB001D
+                        </a>
+                    </h3>
+                    <div class="box-pro-prices">	
+                        <p class="pro-price highlight">
+                            <span>
+                                1,749,300đ
+                            </span>
+                            <span class="pro-price-del">
+                                <del class="compare-price">
+                                    2,499,000đ
+                                </del>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>								</div>
+                                        <div class="width16 col-md-3 col-sm-6 col-xs-6 pro-loop animated zoomIn 4">
+        
+        
+        
+        
+        <div class="product-block">
+            <div class="product-img">	
+                <div class="label-sale">-30%</div>
+        
+                <a href="/products/tui-xach-tay-21stdb006y" title="Túi xách tay,  21STDB006Y" class="image-resize">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09801_de8ede0a0eef4c6dae3437688e99f5fa_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09801_de8ede0a0eef4c6dae3437688e99f5fa_master.jpg">
+                        <img class="img-loop" alt=" Túi xách tay,  21STDB006Y " src="//product.hstatic.net/200000000133/product/dsc09801_de8ede0a0eef4c6dae3437688e99f5fa_master.jpg">
+                    </picture>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="//product.hstatic.net/200000000133/product/dsc09810_02584af88df848129dc738834bfe3eaa_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="//product.hstatic.net/200000000133/product/dsc09810_02584af88df848129dc738834bfe3eaa_master.jpg">
+                        <img class="img-loop img-hover" alt=" Túi xách tay,  21STDB006Y " src="//product.hstatic.net/200000000133/product/dsc09810_02584af88df848129dc738834bfe3eaa_master.jpg">
+                    </picture>
+                </a>
+            </div>
+            <div class="product-detail clearfix">
+                <div class="box-pro-detail">
+                    <h3 class="pro-name">
+                        <a href="/products/tui-xach-tay-21stdb006y" title="Túi xách tay,  21STDB006Y">
+                            Túi xách tay,  21STDB006Y
+                        </a>
+                    </h3>
+                    <div class="box-pro-prices">	
+                        <p class="pro-price highlight">
+                            <span>
+                                1,959,300đ
+                            </span>
+                            <span class="pro-price-del">
+                                <del class="compare-price">
+                                    2,799,000đ
+                                </del>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>								</div>
+                                        <div class="width25 col-md-3 col-sm-6 col-xs-6 pro-loop animated zoomIn 5">
+        
+        
+        
+        
+        <div class="product-block">
+            <div class="product-img">	
+                <div class="label-sale">-30%</div>
+        
+                <a href="/products/tui-xach-tay-21stdb008n" title="Túi xách tay,  21STDB008N" class="image-resize">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="product.hstatic.net/200000000133/product/dsc09829_61b318f89dea43b08ecc8d512bcaa0b6_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="product.hstatic.net/200000000133/product/dsc09829_61b318f89dea43b08ecc8d512bcaa0b6_master.jpg">
+                        <img class="img-loop" alt=" Túi xách tay,  21STDB008N " src="product.hstatic.net/200000000133/product/dsc09829_61b318f89dea43b08ecc8d512bcaa0b6_master.jpg">
+                    </picture>
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="product.hstatic.net/200000000133/product/dsc09841_6895fb4195e7480d935d279ce6d331f4_grande.jpg">
+                        <source media="(min-width: 768px)" srcset="product.hstatic.net/200000000133/product/dsc09841_6895fb4195e7480d935d279ce6d331f4_master.jpg">
+                        <img class="img-loop img-hover" alt=" Túi xách tay,  21STDB008N " src="product.hstatic.net/200000000133/product/dsc09841_6895fb4195e7480d935d279ce6d331f4_master.jpg">
+                    </picture>
+                </a>
+            </div>
+            <div class="product-detail clearfix">
+                <div class="box-pro-detail">
+                    <h3 class="pro-name">
+                        <a href="/products/tui-xach-tay-21stdb008n" title="Túi xách tay,  21STDB008N">
+                            Túi xách tay,  21STDB008N
+                        </a>
+                    </h3>
+                    <div class="box-pro-prices">	
+                        <p class="pro-price highlight">
+                            <span>
+                                1,959,300đ
+                            </span>
+                            <span class="pro-price-del">
+                                <del class="compare-price">
+                                    2,799,000đ
+                                </del>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>								</div>
+                                </div>
+                            </div>				
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" banner-collection-header">
+<!--img src="//theme.hstatic.net/200000000133/1000569834/14/collection_banner.jpg?v=5200" alt="Túi xách"/-->
+</div>
+
+
+
+<section id="home-storeBanner" class="clear-fix">
+	<div class="innerHomeStore">
+		Tìm <a href="/blogs/he-thong-cua-hang">cửa hàng</a> gần bạn nhất <i class="fa fa-map-marker"></i>
+	</div>
+</section>
+</main>
+
+<!-- footer -->
+
+    <footer class="footer">
+        <div class="about-us">
+            <div class="about">
+                <div class="about-list">
+                    <ul>
+                        <li class="about-item title">Tuyển dụng</li>
+                        <li class="about-item"><a href="">Tuyển dụng Tháng 12/2020</a></li>
+                        <li class="about-item"><a href="">Tuyển dụng tháng 07/2020</a></li>
+                        <li class="about-item"><a href="">Thông tin tuyển dụng tháng 02/2021</a></li>
+                    </ul>
+                </div>
+                <div class="about-list">
+                    <ul>
+                        <li class="about-item title">Khám phá EDE</li>
+                        <li class="about-item"><a href="">Về chúng tôi</a></li>
+                        <li class="about-item"><a href="">Câu hỏi thường gặp</a></li>
+                        <li class="about-item"><a href="">Tin tức</a></li>
+                        <li class="about-item"><a href="">Sự kiện</a></li>
+                        <li class="about-item"><a href="">Sao & Eva</a></li>
+                        <li class="about-item"><a href="">Mix & Match</a></li>
+                    </ul>
+                </div>
+                <div class="about-list">
+                    <ul>
+                        <li class="about-item title">Chính sách</li>
+                        <li class="about-item"><a href="">Chính sách thanh toán</a></li>
+                        <li class="about-item"><a href="">Chính sách vận chuyển</a></li>
+                        <li class="about-item"><a href="">Chính sách đổi trả</a></li>
+                        <li class="about-item"><a href="">Chính sách bảo mật</a></li>
+                        <li class="about-item"><a href="">Chương trình thẻ VIP</a></li>
+                        <li class="about-item"><a href="">Hướng dẫn chọn size</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sign-up">
+                <div class="sign-up-title">
+                    <h4>ĐĂNG KÝ NHẬN TIN TỨC VÀ ƯU ĐÃI CỦA EDE</h4>
+                </div>
+                <div class="sign-up-content">
+                    <div class="sign-up-des">
+                        <p>Bằng cách đăng ký, bạn đồng ý với chính sách bảo mật của chúng tôi</p>
+                    </div>
+                    <div class="sign-up-form ">
+                        <input type="email" required id="email">
+                        <label for="email" class="input-placeholder">Nhập email của bạn</label>
+                        <button class="submit-btn" type="submit">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <a href=""><i class="fa fa-facebook " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-youtube " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-weixin" aria-hidden="true"></i></a>
+
+        </div>
+        <div class="address">
+            <div class="address-left">
+                <div class="address-title">
+                    Công ty TNHH Mỹ Phục
+                </div>
+                <div class="address-content">
+                    0104972419 - Ngày cấp: 27/10/2010 - Nơi cấp: Sở kế hoạch và đầu tư Hà Nội
+                    <br>
+                    Trụ sở chính: Phòng 208.2, Trung Tâm Thương Mại VinCom Galleriers, số 114 Mai Hắc Đế, Phường Lê Đại
+                    Hành, Quận Hai Bà Trưng, Thành phố Hà Nội
+                </div>
+            </div>
+            <div class="address-right">
+                <div class="address-copyright">
+                    @ 2021 Eva de Eva
+                </div>
+                <div class="address-tem">
+                    <a href="">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/logo-bct.png?v=5160" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
